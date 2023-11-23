@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "AMI Paris",
+        "price": 2000,
+        "image": "images/1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Solace London",
+        "price": 3500,
+        "image": "images/2.webp"
+    },{
+        "id": 3,
+        "name": "Zimmermann",
+        "price": 2500,
+        "image": "images/3.webp"
+    },
+    {
+        "id": 4,
+        "name": "Dolce & Gabbana",
+        "price": 3000,
+        "image": "images/4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Dsquared2",
+        "price": 4500,
+        "image": "images/5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Balmain",
+        "price": 6500,
+        "image": "images/6.webp"
+    }
+]   
