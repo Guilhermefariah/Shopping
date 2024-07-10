@@ -11,6 +11,7 @@ body {
 
 a {
     text-decoration: none;
+    color: rgba(255, 0, 128, 0.8);
 }
 
 .container {
@@ -46,7 +47,7 @@ header .totalQuantity {
     top: 0;
     right: 0;
     font-size: large;
-    background-color: #e8bc; 
+    background-color: rgba(255, 0, 128, 0.8); 
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -129,7 +130,7 @@ header .totalQuantity {
 }
 
 .cart h2 {
-    color: #e8bc;
+    color: rgba(255, 0, 128, 0.8);
     padding: 20px;
     margin: 0;
 }
@@ -208,12 +209,12 @@ button:hover {
 }
 
 .cart .buttons .checkout {
-    background-color: #dbb7e6;
+    background-color: rgba(255, 0, 128, 0.8);
     transition: background-color 0.3s, color 0.3s;
 }
 
 .cart .buttons .checkout:hover {
-    background-color: #c59bc6;
+    background-color: rgba(255, 0, 128, 0.39);
     color: #fff;
 }
 
