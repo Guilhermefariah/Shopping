@@ -56,6 +56,7 @@ header .totalQuantity {
     justify-content: center;
     align-items: center;
     transform: translate(15px, -15px);
+    transition: transform 0.3s;
 }
 
 .listProduct {
@@ -120,7 +121,11 @@ header .totalQuantity {
     display: grid;
     grid-template-rows: 50px 1fr 50px;
     gap: 20px;
-    transition: right 1s;
+    transition: right 0.5s;
+}
+
+.cart.open {
+    right: 0;
 }
 
 .cart h2 {
