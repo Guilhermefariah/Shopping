@@ -209,6 +209,12 @@ button:hover {
 
 .cart .buttons .checkout {
     background-color: #dbb7e6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cart .buttons .checkout:hover {
+    background-color: #c59bc6;
+    color: #fff;
 }
 
 /* page checkout */
