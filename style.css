@@ -31,7 +31,7 @@ header {
 }
 
 header img {
-    width: 60px;
+    width: 40px;
 }
 
 header .iconCart {
@@ -43,7 +43,7 @@ header .totalQuantity {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: x-large;
+    font-size: large;
     background-color: #e8bc;
     width: 40px;
     height: 40px;
@@ -53,14 +53,18 @@ header .totalQuantity {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(20px);
+    transform: translate(15px, -15px);
 }
 
 .listProduct {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     margin-top: 20px;
+}
+
+.listProduct .item:hover {
+    transform: translateY(-5px);
 }
 
 .listProduct .item img {
