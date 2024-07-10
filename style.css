@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: serif;
     background-color: #f2f2f2;
 }
 
@@ -24,7 +24,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
+    background-color: #1a1a1a;
     color: #fff;
     padding: 10px 20px;
     width: 100%;
@@ -32,6 +32,8 @@ header {
 
 header img {
     width: 40px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 header .iconCart {
@@ -44,7 +46,7 @@ header .totalQuantity {
     top: 0;
     right: 0;
     font-size: large;
-    background-color: #e8bc;
+    background-color: #e8bc; 
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -301,9 +303,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: #1a1a1a;
     color: #fff;
     text-align: center;
+    font-size: x-large;
     padding: 10px 0;
     width: 100%;
     bottom: 0;
