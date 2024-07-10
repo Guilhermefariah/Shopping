@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: monospace;
@@ -27,8 +28,6 @@ header {
     color: #fff;
     padding: 10px 20px;
     width: 100%;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 header img {
@@ -286,5 +285,4 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    box-sizing: border-box;
 }
