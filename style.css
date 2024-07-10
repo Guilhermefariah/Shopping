@@ -147,9 +147,23 @@ header .totalQuantity {
     align-items: center;
 }
 
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
 .cart .listCart .item span {
     display: block;
-    width: 50px;
+    padding: 10px;
+    font-size: 1.2em;
     text-align: center;
 }
 
